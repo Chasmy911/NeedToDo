@@ -1,14 +1,11 @@
-import { DateCalendar, LocalizationProvider } from '@mui/x-date-pickers';
-import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import React from 'react';
+import { App_container } from './style';
 
 const MonthPage = () => {
     return (
-        <div>
-            <LocalizationProvider dateAdapter={AdapterDayjs}>
-                <DateCalendar />
-            </LocalizationProvider>
-        </div>
+        <App_container>
+            calendar
+        </App_container>
     );
 };
 
